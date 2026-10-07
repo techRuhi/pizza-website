@@ -1,0 +1,587 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.navbar div {
+    margin-top: 0px;
+    height: 70px;
+    background-color: #000000d7;
+}
+
+.navbar-brand {
+    color: #eca408;
+    font-weight: 800;
+}
+
+.fa-solid {
+    margin-right: 15px;
+}
+
+.fa-pizza-slice {
+    font-size: 2rem;
+    color: rgb(234, 73, 28);
+}
+
+.nav-item a {
+    color: white;
+}
+
+.call a {
+    color: #eca408;
+}
+
+/* --------------------hero----------------------------  */
+.hero {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(44, 42, 42, 0.2)), url(../image/pizza3.jpg);
+    height: 650px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+}
+
+.hero-top {
+    width: 50%;
+    display: flex;
+}
+
+.hero h1 {
+    font-family: "Bangers", system-ui;
+    color: white;
+    font-size: 10rem;
+    font-width: 700;
+
+}
+
+.hero h2 {
+    font-family: "Bangers", system-ui;
+    color: white;
+    font-size: 7rem;
+    font-width: 800;
+}
+
+.hero p {
+    font-style: italic;
+    font-weight: 600;
+    color: azure;
+    font-size: 1.2rem;
+}
+
+.hero button {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "League Gothic", sans-serif;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #EC3D08;
+    color: white;
+    font-weight: 700;
+    box-shadow: 2px 2px 5px rgba(96, 94, 94, 0.608);
+    transition: all 0.5s ease;
+}
+
+.hero button:hover {
+    background-color: #eca408;
+    color: rgb(0, 0, 0);
+}
+
+
+/* ================= TABLET ================= */
+
+@media (max-width: 992px) {
+
+    .hero {
+        height: 600px;
+        background-position: center;
+    }
+
+    .hero-top {
+        width: 65%;
+        margin-left: 30px !important;
+    }
+
+    .hero h1 {
+        font-size: 7rem;
+    }
+
+    .hero h2 {
+        font-size: 5rem;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+        max-width: 450px;
+    }
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+    .hero {
+        height: 550px;
+        background-position: center;
+    }
+
+    .hero-top {
+        width: 80%;
+        margin-left: 15px !important;
+        margin-top: 20px !important;
+        padding: 15px !important;
+    }
+
+    .hero h1 {
+        font-size: 5.5rem;
+    }
+
+    .hero h2 {
+        font-size: 4rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        max-width: 350px;
+    }
+
+    .hero button {
+        width: 130px;
+        height: 45px;
+        font-size: 1.3rem;
+    }
+}
+
+
+/* ================= SMALL MOBILE ================= */
+
+@media (max-width: 480px) {
+
+    .hero {
+        height: 500px;
+        background-position: center;
+    }
+
+    .hero-top {
+        width: 90%;
+        margin-left: 5px !important;
+        padding: 10px !important;
+    }
+
+    .hero h1 {
+        font-size: 4.2rem;
+    }
+
+    .hero h2 {
+        font-size: 3.2rem;
+    }
+
+    .hero p {
+        font-size: 0.95rem;
+        line-height: 1.5;
+        max-width: 300px;
+    }
+
+    .hero button {
+        width: 120px;
+        height: 42px;
+        font-size: 1.2rem;
+    }
+}
+
+/* --------------------hero section 2----------------------------  */
+.hero2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-hero2 {
+    width: 100%;
+}
+
+.heading-hero2 p {
+    font-family: "Englebert", cursive;
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: #EC3D08;
+}
+
+.heading-hero2 h2 {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 800;
+}
+
+/* -------------------- cards ---------------------------- */
+.cards-hero2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 20px;
+}
+
+.card {
+    width: 270px;
+    height: 300px;
+    min-width: 0;
+    border: none;
+    border-radius: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card p {
+    font-weight: 700;
+    color: rgb(229, 163, 39);
+}
+
+.card p span {
+    color: aliceblue;
+}
+
+.card h2 {
+    font-size: 2.7rem;
+    font-weight: 300;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Passion One", sans-serif;
+    color: white;
+}
+
+.card button {
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-family: "League Gothic", sans-serif;
+    width: 130px;
+    height: 40px;
+    border: none;
+    background-color: #EC3D08;
+    color: white;
+    font-weight: 700;
+    box-shadow: 2px 2px 5px rgba(96, 94, 94, 0.608);
+    transition: all 0.5s ease;
+}
+
+.card button:hover {
+    background-color: #eca408;
+    color: rgb(0, 0, 0);
+}
+
+.one,
+.two,
+.three,
+.four {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.one {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(44, 42, 42, 0.3)), url(../image/p1.jpg);
+}
+
+.two {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(44, 42, 42, 0.3)), url(../image/p2.jpg);
+}
+
+.three {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(44, 42, 42, 0.3)), url(../image/p3.jpg);
+}
+
+.four {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(44, 42, 42, 0.3)), url(../image/p4.jpg);
+}
+
+/* responsive of section hero2 */
+
+@media (max-width: 992px) {
+
+    .heading-hero2 p {
+        font-size: 1.2rem;
+    }
+
+    .heading-hero2 h2 {
+        font-size: 2rem;
+    }
+
+    .cards-hero2 {
+        gap: 15px;
+    }
+
+    .card {
+        height: 280px;
+    }
+
+    .card h2 {
+        font-size: 2.2rem;
+    }
+}
+
+/* ---------------hero section 3---------------- */
+.hero3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.img {
+    height: 500px;
+    width: 45%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+}
+
+.img-text {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-text h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: "Englebert", cursive;
+    color: rgb(177, 6, 6);
+}
+
+.img-text h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: "Neuton", serif;
+    color: rgb(0, 0, 0);
+}
+
+.img-text p {
+    color: rgb(65, 64, 64);
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.buttons-hero3 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.buttons-hero3 a {
+    width: 100px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+
+    color: black;
+    text-decoration: none;
+    font-family: "Neuton", serif;
+
+    border: none;
+    background-color: #ecd108;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    box-shadow: 2px 2px 5px rgba(96, 94, 94, 0.608);
+    transition: all 0.1s ease;
+}
+
+.buttons-hero3 a:hover {
+    border: 2px solid rgb(255, 0, 13);
+    background-color: white;
+}
+
+/* responsive of section hero3 */
+/* ================= TABLET ======================== */
+@media (max-width: 992px) {
+
+    .hero3 {
+        gap: 20px;
+    }
+
+    /* Image */
+
+    .img {
+        width: 45%;
+        height: 420px;
+    }
+
+    .img img {
+        width: 100%;
+        height: 90%;
+    }
+
+    /* Text */
+
+    .img-text {
+        width: 50%;
+    }
+
+    .img-text h3 {
+        font-size: 1.1rem;
+    }
+
+    .img-text h2 {
+        font-size: 2rem;
+    }
+
+    .img-text p {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+
+
+    /* Buttons */
+
+    .buttons-hero3 {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .buttons-hero3 a {
+        width: 160px;
+        font-size: 0.9rem;
+    }
+}
+
+/* ================= MOBILE ======================== */
+
+@media (max-width: 768px) {
+
+    .hero3 {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 15px;
+    }
+
+
+    /* ---------------- IMAGE ---------------- */
+    .img {
+        width: 100%;
+        height: 350px;
+
+        order: 1;
+    }
+
+    .img img {
+        width: 90%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* ---------------- TEXT ---------------- */
+
+    .img-text {
+        width: 100%;
+        height: auto;
+
+        order: 2;
+
+        text-align: center;
+    }
+
+    .img-text h3 {
+        font-size: 1.2rem;
+    }
+
+    .img-text h2 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .img-text p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    /* ---------------- BUTTONS ---------------- */
+
+    .buttons-hero3 {
+        width: 100%;
+
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .buttons-hero3 a {
+        width: 170px;
+        height: 40px;
+
+        font-size: 0.9rem;
+    }
+}
+
+/* ================ SMALL MOBILE ================== */
+@media (max-width: 480px) {
+
+    .hero3 {
+        width: 100%;
+        padding: 15px 10px;
+        gap: 15px;
+    }
+
+    .img {
+        width: 100%;
+        height: 280px;
+    }
+
+    .img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    /* ---------------- TEXT ---------------- */
+
+    .img-text {
+        width: 100%;
+    }
+
+    .img-text h3 {
+        font-size: 1rem;
+    }
+
+    .img-text h2 {
+        font-size: 1.7rem;
+        line-height: 1.2;
+    }
+
+    .img-text p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+
+    /* ---------------- BUTTONS ---------------- */
+    .buttons-hero3 {
+        width: 100%;
+
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .buttons-hero3 a {
+        width: 90%;
+        max-width: 250px;
+        height: 42px;
+
+        font-size: 0.9rem;
+    }
+}
